@@ -1,0 +1,42 @@
+{
+  "name": "grunt-snippet",
+  "description": "Grunt task plugin to inject code pieces into your index.html build file",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stevermeister/grunt-snippet",
+  "author": {
+    "name": "Stepan Suvorov",
+    "email": "stevermeister@gmail.com",
+    "url": "http://js4.it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevermeister/grunt-snippet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevermeister/grunt-snippet/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/stevermeister/grunt-snippet/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
